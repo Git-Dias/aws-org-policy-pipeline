@@ -3,7 +3,7 @@
 
 variable "project_name" {
   description = "Project name"
-  default     = "org-policy-mgmt"
+  default     = "org-policy"
 }
 
 variable "provider_type" {
