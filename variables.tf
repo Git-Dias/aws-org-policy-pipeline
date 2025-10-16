@@ -17,7 +17,7 @@ variable "full_repository_name" {
     condition     = can(regex("^[a-zA-Z0-9-_]+/[a-zA-Z0-9-_]+$", var.full_repository_name))
     error_message = "Repository name must be in format 'org/repo'."
   }
-  default     = "org/org-policy-mgmt-pipeline"
+  default     = "Git-Dias/aws-org-policy-pipeline"
 }
 
 variable "branch_name" {
@@ -34,7 +34,7 @@ variable "terraform_version" {
 variable "enable_bedrock" {
   description = "Enable Amazon Bedrock to summarize pipeline logs for manual approval stage"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "bedrock_model_id" {
