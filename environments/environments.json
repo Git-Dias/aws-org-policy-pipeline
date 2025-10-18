@@ -1,0 +1,40 @@
+[
+    {
+        "ID": "diaz.tech",
+        "Target": [
+            "diaz.tech:ou-1r9e-p2hpc3t6"
+        ]
+    },
+    {
+        "ID": "dev-env",
+        "Target": [
+            "dev-env:ou-1r9e-x0u4p0ct"
+        ]
+    },
+    {
+        "ID": "hml-env",
+        "Target": [
+            "hml-env:ou-1r9e-h6jxbek3"
+        ]
+    },
+    {
+        "ID": "prd-env",
+        "Target": [
+            "prd-env:ou-1r9e-4w16dy47"
+        ]
+    },
+    {
+        "ID": "staging-env",
+        "Target": [
+            "staging-hml-env:ou-1r9e-31l5z6iq",
+            "staging-prd-env:ou-1r9e-dnxsw4pn"
+
+        ]
+    },
+    {
+        "ID": "sandbox",
+        "Target": [
+            "sandbox-dev-env:ou-1r9e-dkrr6ugn"
+        ]
+    }
+]
